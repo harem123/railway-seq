@@ -6,7 +6,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 3000
 app.get('/', async (req, res) => {
     
-    res.json("we are online")
+    res.json(`Running at port:${PORT}`)
   })
 
 

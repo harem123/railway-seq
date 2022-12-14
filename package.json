@@ -1,0 +1,29 @@
+{
+  "name": "railway-seq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harem123/railway-seq.git"
+  },
+  "keywords": [
+    "railway",
+    "sequalize"
+  ],
+  "author": "jcp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harem123/railway-seq/issues"
+  },
+  "homepage": "https://github.com/harem123/railway-seq#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.27.0"
+  }
+}

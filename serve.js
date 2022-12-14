@@ -14,8 +14,10 @@ app.get('/', async (req, res) => {
   })
 
   app.get('/data', async (req, res) => {
-    const data = userModel.findAll()
+    const data = await userModel.findAll()
+    console.log(data)
     res.json(data)
+    
   })
   
 

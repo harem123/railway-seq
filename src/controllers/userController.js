@@ -12,3 +12,7 @@ const listUsers = async(req,res) =>{
         res.status(500).send({status:"FAILED"});
       } 
 }
+
+module.exports = {
+listUsers
+}

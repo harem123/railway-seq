@@ -22,5 +22,5 @@ app.get('/', async (req, res) => {
   
 
 app.listen(PORT, () => {
-  console.log(`Running at localhost:${PORT}`);
+  console.log(`Running at port:${PORT}`);
 });
